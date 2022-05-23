@@ -1,6 +1,12 @@
 /*==== rtl css ====*/
+@font-face {
+    font-family:'pf';
+    src: url('../fonts/PF-DIN-Text-Arabic.otf');
+  }
 body{
-	text-align: right !important;
+    font-family:pf !important;
+    direction: rtl;
+    text-align: right !important;
 }
 
 
@@ -100,7 +106,12 @@ body{
     text-align: right!important;
 }
 
-
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+}
 
 
 
